@@ -20,10 +20,10 @@ Installation
 
     [ludolph_doorman.serve]
 
-- Update Ludolph to be run as a default user (pi), as it needs access to GPIO
+- Update Ludolph to run as a default user (pi), as it needs access to GPIO
 - Reload Ludolph::
 
-    sudo systemctl status ludolph.service
+    sudo systemctl restart ludolph.service
 
 
 **Dependencies:**

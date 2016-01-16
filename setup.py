@@ -49,7 +49,7 @@ setup(
     long_description=LONG_DESCRIPTION,
     author='Richard Kellner',
     author_email='richard.kellner [at] gmail.com',
-    url='https://github.com/erigones/ludolph-doorman/',
+    url='https://github.com/ricco386/ludolph-doorman/',
     license='MIT',
     packages=packages,
     install_requires=DEPS,
