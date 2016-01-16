@@ -29,7 +29,7 @@ Installation
 **Dependencies:**
 
 - `Ludolph <https://github.com/erigones/Ludolph>`_ (0.6.0+)
-- `RPi.doorman <https://github.com/ricco386/rpi-doorman>`_ (0.1.0a+) 
+- `RPi.doorman <https://github.com/ricco386/rpi-doorman>`_ (0.1.0+) 
 
 
 License
