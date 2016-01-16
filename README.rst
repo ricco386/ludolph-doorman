@@ -3,7 +3,7 @@ ludolph-doorman
 
 `Ludolph <https://github.com/erigones/Ludolph>`_: Doorman plugin
 
-Plugin for Ludolph to be able to use `doorman <https://github.com/ricco386/doorman>`_ library on Raspberry Pi.
+Plugin for Ludolph to be able to use `RPi.doorman <https://github.com/ricco386/rpi-doorman>`_ library on Raspberry Pi.
 
 .. image:: https://badge.fury.io/py/ludolph-doorman.png
     :target: http://badge.fury.io/py/ludolph-doorman
@@ -29,7 +29,7 @@ Installation
 **Dependencies:**
 
 - `Ludolph <https://github.com/erigones/Ludolph>`_ (0.6.0+)
-- `doorman <https://github.com/ricco386/doorman>`_ (0.1.0a+) 
+- `RPi.doorman <https://github.com/ricco386/rpi-doorman>`_ (0.1.0a+) 
 
 
 License
