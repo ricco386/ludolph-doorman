@@ -22,7 +22,12 @@ class Serve(LudolphPlugin):
     @command
     def door_state(self, msg):
         """
-        Doorman get output from get_door_state function.
+        Doorman get current state of door (output from get_door_state function).
+
+        Doorman is using adafruit magnetic contact switch (door sensor), and
+        monitor door state.
+
+        More info: https://github.com/ricco386/doorman
 
         Usage: door-state
         """
@@ -31,6 +36,9 @@ class Serve(LudolphPlugin):
 
     @webhook('/doorman_update', methods=('POST',))
     def doorman_update(self):
+        """
+        Webhook to receive updates from Doorman service if sensor status change.
+        """
         user = request.forms.get('user', None)
         msg = request.forms.get('msg', None)
 
