@@ -12,7 +12,7 @@ from ludolph.plugins.plugin import LudolphPlugin
 from ludolph.web import webhook, request, abort
 
 
-class LudolphDoorman(LudolphPlugin):
+class Serve(LudolphPlugin):
     """
     Ludolph: Doorman, plugin commands.
     """
