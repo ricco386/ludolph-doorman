@@ -18,7 +18,7 @@ Installation
 
 - Add new plugin section into Ludolph configuration file::
 
-    [ludolph_doorman.ludolph_doorman]
+    [ludolph_doorman.serve]
 
 - Update Ludolph to be run as a default user (pi), as it needs access to GPIO
 - Reload Ludolph::
