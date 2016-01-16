@@ -19,7 +19,7 @@ DESCRIPTION = 'Ludolph: Doorman plugin'
 with codecs.open('README.rst', 'r', encoding='UTF-8') as readme:
     LONG_DESCRIPTION = ''.join(readme)
 
-DEPS = ['ludolph>=0.6.0', 'doorman>=0.1.0a']
+DEPS = ['ludolph>=0.6.0', 'rpi-doorman>=0.1.0a']
 
 CLASSIFIERS = [
     'Environment :: Console',
