@@ -9,6 +9,7 @@ from doorman.doorman import Doorman
 from ludolph_doorman import __version__
 from ludolph.command import CommandError, command
 from ludolph.plugins.plugin import LudolphPlugin
+from ludolph.web import webhook, request, abort
 
 
 class LudolphDoorman(LudolphPlugin):
