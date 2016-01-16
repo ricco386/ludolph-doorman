@@ -4,7 +4,7 @@ This file is part of Ludolph: Doorman plugin
 See the LICENSE file for copying permission.
 """
 import time
-from rpi_doorman.doorman import Doorman
+from rpi_doorman.rpi_doorman import Doorman
 
 from ludolph_doorman import __version__
 from ludolph.command import CommandError, command
@@ -24,10 +24,10 @@ class Serve(LudolphPlugin):
         """
         Doorman get current state of door (output from get_door_state function).
 
-        Doorman is using adafruit magnetic contact switch (door sensor), and
+        RPi.Doorman is using adafruit magnetic contact switch (door sensor), and
         monitor door state.
 
-        More info: https://github.com/ricco386/doorman
+        More info: https://github.com/ricco386/rpi-doorman
 
         Usage: door-state
         """
