@@ -27,3 +27,18 @@ class LudolphDoorman(LudolphPlugin):
         """
         d = Doorman()
         return d.get_door_state()
+
+    @webhook('/doorman_update', methods=('POST',))
+    def doorman_update(self):
+        user = request.forms.get('user', None)
+        msg = request.forms.get('msg', None)
+
+        if not user:
+            abort(400, 'Missing user parameter in request')
+
+        if not msg:
+            abort(400, 'Missing msg parameter in request')
+
+        self.xmpp.msg_send(user, msg)
+
+        return 'Message sent'
